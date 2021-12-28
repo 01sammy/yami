@@ -5,9 +5,9 @@
 ## 작성일: 2021.12.28
 
 ## 기술스택
-*html5
-*css3
-*javascript
+* html5
+* css3
+* javascript
 
 ## 프로젝트 개요
 
