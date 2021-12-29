@@ -87,3 +87,31 @@ a, a:link {
     border-radius: 50%;
     overflow: hidden;
 }
+/*=========aside style===*/
+.aside-wrap {
+    border-top: 1px solid #d60c00;
+    background: #f1f1f1;
+    margin: 50px 0 20px;
+}
+.aside-wrap > ul {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+.aside-wrap li {
+    font-size: 14px;
+    color: #d60c00;
+}
+/*========footer====*/
+footer {
+    text-align: center;
+}
+footer .logo-footer {
+    margin: 20px 0;
+}
+footer p {
+    line-height: 1.8;
+    font-size: 12px;
+}
