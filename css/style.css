@@ -39,9 +39,10 @@ a, a:link {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    height: 50px;
 }
 .main-nav {
-    width: 100%
+    width: 100%;
 }
 #gnb {
     justify-content: center;
@@ -66,4 +67,23 @@ a, a:link {
 }
 #hnb {
     display: flex;
+}
+/*=======main style===========*/
+#main > article > h3 {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 1.375em;
+    color: #d60c00;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.prd {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly
+}
+.prd li {
+    border-radius: 50%;
+    overflow: hidden;
 }
