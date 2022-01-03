@@ -92,6 +92,7 @@ a, a:link {
 #hnb {
     display: flex;
 }
+ 
 /*=======main style===========*/
 /*----------main > intro style-------*/
 .article-wrap {
@@ -162,7 +163,21 @@ margin: 30px 0 0 0;
     border-radius: 50%;
     overflow: hidden;
 }
-/*--------------main > about style-------*/
+/*--------------main > history-----------*/
+.history {
+    display: flex;
+}
+.history ul {
+    width: 50%;
+}
+.history ul li {
+    display: flex;
+    margin: 1rem 0;
+}
+.history ul li p:nth-child(1) {
+    margin-right: 1rem;
+}
+ /*--------------main > about style-------*/
 #slogan {
     border-bottom: 1px solid #ccc;
 }
