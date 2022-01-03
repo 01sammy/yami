@@ -93,6 +93,57 @@ a, a:link {
     display: flex;
 }
 /*=======main style===========*/
+/*----------main > intro style-------*/
+.article-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+#mind {
+display: flex;
+/* height: 220px;
+overflow: hidden; */
+margin: 30px 0 0 0;
+}
+.mind-cols {
+    display: flex;
+    color: white;
+    text-align: center;
+}
+.mind-img, .mind-col1, .mind-col2 {
+    width: 50%;
+}
+.mind-col1 {
+    background: #DC2C34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.mind-col1 hr {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background: white;
+}
+.mind-col2 {
+    background: #666666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mind-col2 hr {
+    width: 90%;
+    border: 0;
+    border-top: 1px solid white;
+}
+.mind-cols p {
+    line-height: 1.5;
+}
+.mind-img {
+    font-size: 0;
+}
+.mind-img img {
+    max-width: 100%;
+}
 #main > article > h3 {
     margin: 50px 0;
     text-align: center;
