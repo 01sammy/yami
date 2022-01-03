@@ -145,24 +145,6 @@ margin: 30px 0 0 0;
 .mind-img img {
     max-width: 100%;
 }
-#main > article > h3 {
-    margin: 50px 0;
-    text-align: center;
-    font-size: 1.375em;
-    color: #d60c00;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.prd {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-}
-.prd li {
-    border-radius: 50%;
-    overflow: hidden;
-}
 
 /*--------------main > history-----------*/
 .history {
@@ -186,7 +168,50 @@ margin: 30px 0 0 0;
     justify-content: center;
     text-align: center;
 }
- /*--------------main > about style-------*/
+/*--------------------main > business style--------*/
+
+.business {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+/*--------------main > map style---------------*/
+.tab-btns ul {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.tab-btns ul li {
+    width: calc(33.33333333% - 20px);
+    background: #d60c00;
+    color: white;
+    text-align: center;
+}
+.tab-btns ul li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+
+/*--------------main > about style-------*/
+#main > article > h3 {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 1.375em;
+    color: #d60c00;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.prd {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.prd li {
+    border-radius: 50%;
+    overflow: hidden;
+}
 #slogan {
     border-bottom: 1px solid #ccc;
 }
@@ -196,7 +221,7 @@ margin: 30px 0 0 0;
     align-items: center;
     color: white;
     height: 200px;
-    background: url(https://cdn.pixabay.com/photo/2016/11/21/14/57/wheat-1845835_960_720.jpg) no-repeat 0 100%/ cover;
+    background: url(../images/visual.jpg) no-repeat 0 100%/ cover;
 }
 .text p {
     text-shadow: 1px 1px 10px #000;
