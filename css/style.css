@@ -163,6 +163,7 @@ margin: 30px 0 0 0;
     border-radius: 50%;
     overflow: hidden;
 }
+
 /*--------------main > history-----------*/
 .history {
     display: flex;
@@ -176,6 +177,14 @@ margin: 30px 0 0 0;
 }
 .history ul li p:nth-child(1) {
     margin-right: 1rem;
+}
+
+/*----------brand >partner style----*/
+.brand {
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    text-align: center;
 }
  /*--------------main > about style-------*/
 #slogan {
