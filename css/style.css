@@ -196,7 +196,34 @@ margin: 30px 0 0 0;
     height: 400px;
     margin: 30px 0;
 }
-
+/*--------------main > process style---------------*/
+.steps .step {
+    border: 3px solid gray;
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box; /*상자의 크기에 border을 포함시켜서 그리게 하는 속성*/
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+.step .title {
+    color: yellowgreen;
+    text-transform: uppercase;
+}
+.title::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: yellowgreen;
+    margin: 10px auto 0;
+}
+.slick-prev:before, .slick-next:before {
+    color: gray !important;
+}
 /*--------------main > about style-------*/
 #main > article > h3 {
     margin: 50px 0;
