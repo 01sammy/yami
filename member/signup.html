@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>스마일푸드 야미</title>
+    <title>signup</title>
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/13901f0102.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/13901f0102.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
-    <h1 class="blind">스마일푸드 야미</h1>
     <header>
         <div class="header-top">
             <div class="top-wrap">
@@ -25,10 +22,10 @@
                 </div>
                 <nav class="top-nav">
                     <ul id="tnb">
-                        <li><a href="../member/signin.html">로그인</a></li>
-                        <li><a href="../member/signup.html">회원가입</a></li>
-                        <li><a href="../member/cart.html">장바구니</a></li>
-                        <li><a href="../member/mypage.html">마이페이지</a></li>
+                        <li><a href="signin.html">로그인</a></li>
+                        <li><a href="signup.html">회원가입</a></li>
+                        <li><a href="cart.html">장바구니</a></li>
+                        <li><a href="mypage.html">마이페이지</a></li>
                     </ul>
                 </nav>
             </div>
@@ -69,26 +66,8 @@
     <section id="main">
         <h2 class="blind">main section</h2>
         <article>
-            <h3>오시는길</h3>
-            <div class="article-wrap">
-                <div id="tabs">
-                    <div class="tab-btns">
-                        <ul>
-                            <li><a href="#">본사</a></li>
-                            <li><a href="#">공장</a></li>
-                            <li><a href="#">물류창고</a></li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents">
-                        <div id="map">지도입니다.</div>
-                        <div id="map-info">
-                            <div class="info-contact">주소 및 연락처입니다</div>
-                            <div class="info-traffic">교통수단별 정보입니다.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <p>페이지 준비중입니다.</p>
+                <h3>페이지를 준비중입니다.</h3>
+                <p>페이지 준비중입니다.</p>
         </article>
     </section>
     <aside>
@@ -112,33 +91,5 @@
             <p>copyright&copy; 2021. smile food yami. all rights reserved.</p>
         </address>
     </footer>
-    <script type="text/javascript"
-        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e7afb02083ff29ea62097325845237ba"></script>
-    <script>
-        var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
-        var options = { //지도를 생성할 때 필요한 기본 옵션
-            center: new kakao.maps.LatLng(35.13351280814019, 126.91850280368288), //지도의 중심좌표.
-            level: 3 //지도의 레벨(확대, 축소 정도)
-        };
-
-        var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
-        var imageSrc = 'http://sunshine01.dothome.co.kr/yami/images/marker.png', // 마커이미지의 주소입니다    
-            imageSize = new kakao.maps.Size(29, 42), // 마커이미지의 크기입니다
-            imageOption = { offset: new kakao.maps.Point(15, 42) }; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
-
-        var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption);
-        var markerPosition = new kakao.maps.LatLng(35.13351280814019, 126.91850280368288);
-
-        // 마커를 생성합니다
-        var marker = new kakao.maps.Marker({
-            position: markerPosition,
-            image: markerImage // 마커이미지 설정 
-        });
-
-        // 마커가 지도 위에 표시되도록 설정합니다
-        marker.setMap(map);
-    </script>
-    <!-- <script src="../script/map.js"></script> -->
 </body>
-
 </html>
