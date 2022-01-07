@@ -343,8 +343,8 @@ margin: 30px 0 0 0;
     padding: 5px 10px;
 }
 .form-wrap {
-    width: 700px;
-    height: 370px;
+    width: 900px;
+    /* height: 370px; */
     margin: 0 auto;
     border: 1px solid #d60c00;
     box-sizing: border-box;
@@ -359,10 +359,10 @@ margin: 30px 0 0 0;
     margin: 0 0 2rem 0;
 
 }
-.form-wrap ul li:nth-child(3) {
+#gubun {
     justify-content: flex-end;
 }
-.form-wrap ul li:nth-child(3)::before {
+#gubun::before {
     content:'';
     position: absolute;
     display: block;
@@ -372,9 +372,56 @@ margin: 30px 0 0 0;
     top: -10px;
 
 }
-#userID, #userPW {
+#userID, #userPW, #userPW2{
     width:80%;
     height: 60px;
+}
+.email-wrap {
+    width: 80%;
+    height: 60px;
+}
+#userEmail {
+    width: 50%;
+    height: 60px;
+}
+#emailAddr {
+    width: 25%;
+    text-indent: 15px;
+    height: 60px;
+}
+#emailAuth, #phoneAuth, #uploadBtn {
+    background: #d60c00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 1rem;
+}
+#userPhone {
+    width: 78%;
+    height: 60px;
+}
+#userPhoto {
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
+.phone-wrap {
+    height: 60px;
+    width: 80%;
+}
+.photo-wrap {
+    width: 80%;
+}
+.photo-wrap label {
+    padding: 15px 0;
+}
+#photoSrc {
+    width: 78%;
+    height: 60px;
+}
+#userInfo {
+    width: 80%;
+    height: auto;
 }
 #userID:focus, #userPW:focus {
     border: 2px solid #d60c00;
@@ -383,10 +430,32 @@ margin: 30px 0 0 0;
 label {
     margin-right: 1rem;
 }
-input[type=submit]{
+.btns {
+    justify-content: center !important;
+}
+
+input[type=submit], input[type=reset]{
     height: 60px;
     width: 120px;
     margin: 0 0 0 100px;
+
+    background: #d60c00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 1rem;
+}
+/*---------------signup style-----------*/
+#checkId, #checkPw {
+    /* display: none; */
+    position: absolute;
+    right: 5%;
+    background: #d60c00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+
 }
 /*--------------main > about style-------*/
 #main > article > h3 {
